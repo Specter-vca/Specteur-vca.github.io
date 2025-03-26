@@ -26,5 +26,5 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
 });
 
 document.getElementById('homeButton').addEventListener('click', function() {
-    window.location.href = 'accueil.html'; // Redirige vers la page d'accueil
+    window.location.href = 'index.html'; // Redirige vers la page d'accueil
 });
