@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles3.css">
+    <title>Choix du Réseau Mobile</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Choisissez votre Réseau Mobile</h1>
+        <form id="networkForm">
+            <label for="network">Réseau Mobile</label>
+            <select id="network" name="network" required>
+                <option value="">Sélectionnez un réseau</option>
+                <option value="orange">ORANGE</option>
+                <option value="moov">MOOV</option>
+                <option value="mtn">MTN</option>
+            </select>
+
+            <label for="phoneNumber">Numéro de Téléphone</label>
+            <input type="text" id="phoneNumber" name="phoneNumber" placeholder="Entrez votre numéro de téléphone" required>
+
+            <button type="submit">Mémoriser le Choix</button>
+            <button type="button" id="prevButton">Accueil</button>
+           
+        </form>
+        <div id="message" class="alert"></div>
+    </div>
+
+    <script src="script3.js"></script>
+</body>
+</html>

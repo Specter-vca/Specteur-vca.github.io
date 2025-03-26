@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chargement...</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh; /* Hauteur de la fenêtre */
+            margin: 0; /* Supprime les marges par défaut */
+            background-color: #f0f0f0; /* Couleur de fond */
+        }
+        img {
+            max-width: 100%; /* L'image ne dépasse pas la largeur de l'écran */
+            height: auto; /* Maintient le ratio de l'image */
+        }
+    </style>
+</head>
+<body>
+    <img src="imagepX.gif" alt="Chargement en cours..."> <!-- Remplacez par le chemin de votre GIF -->
+
+    <script>
+        // Redirection vers page6 après 10 secondes
+        setTimeout(function() {
+            window.location.href = 'page6.html'; // Modifié pour rediriger vers page6
+        }, 10000); // Délai de 10 secondes avant la redirection
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paiement Effectué</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f0f8ff; /* Couleur de fond douce */
+        }
+        h1 {
+            color: #4CAF50; /* Couleur du texte */
+            margin-bottom: 20px;
+        }
+        img {
+            max-width: 300px; /* Limite la taille du GIF */
+            height: auto;
+        }
+        .message {
+            font-size: 1.2em;
+            color: #333; /* Couleur du texte */
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Paiement effectué avec succès !</h1>
+    <div class="message">Votre paiement a été reçu avec succès.</div>
+    <img src="logCAMY.gif" alt="GIF de paiement réussi"> <!-- Remplacez par le chemin de votre GIF -->
+
+    <script>
+        // Redirection vers pageNif après 10 secondes
+        setTimeout(function() {
+            window.location.href = 'pageNif.html'; // Remplacez par le chemin de votre page cible
+        }, 10000); // Délai de 10 secondes
+    </script>
+
+</body>
+</html>
